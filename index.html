@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>I LOVE YOU BABY!</title>
+		<meta name="description" content="Scattered Polaroids Gallery: A flat-style take on a Polaroid gallery" />
+		<meta name="keywords" content="scattered polaroids, image gallery, javascript, random rotation, 3d, backface, flat design" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="img/emojis/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Top Navigation -->
+			<header class="codrops-header" style="background-color: rgb(221, 63, 79);">
+				<img src="img/emojis/Pigs.png" style="width: 300px;"/>
+				<h1 style="font-weight: bold;">I LOVE YOU BABY!<span>HAPPY VALENTINES DAY!</span></h1>
+			</header>
+			<section class="description">
+				<center><img src="img/emojis/love letter emoji.png" onclick="typewriter();" style="cursor: pointer;"/></center>
+				<div class="typewriter">
+					<div id="typedtext"></div>
+				</div>
+			</section>
+			<section id="photostack-1" class="photostack photostack-start	">
+				<div>
+					<figure>
+						<img src="img/1.jpg" alt="img01"/>
+						<figcaption>
+							<h2 class="photostack-title">Pabebe pa sya! Ayaw magpapic HAHAHA!</h2>
+							<div class="photostack-back">
+								<p>This is the first time I saw you. Doon pa lang alam ko na na may something (sparks?) <img src="img/emojis/sparkles.png" width="30px"/></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="img/2.jpg" alt="img02"/>
+						<figcaption>
+							<h2 class="photostack-title">Medyo awkward pa tayo hehe.</h2>
+							<div class="photostack-back">
+								<p>FIRST DATE! Nanood lang tayo ng sine and ang clingy mo sakin sa sinehan <img src="img/emojis/smirk.png" width="30px"/></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="img/3.jpg" alt="img03"/>
+						<figcaption>
+							<h2 class="photostack-title">MY GAHD NEVER AGAIN!</h2>
+							<div class="photostack-back">
+								<p>Eto yung birthday mo at nag punta tayo sa EK! :nakanganga na nagrereklamo emoji: ayoko na umulit! But still alam mong sumama ko sayo sa mga rides kahit takot na takot ako and napapahiya na ko. Ganun kita kamahal! <img src="img/emojis/glowing heart.png" width="30px"/></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="img/4.jpg" alt="img04"/>
+						<figcaption>
+							<h2 class="photostack-title">Maganda ka pa sa view. :*</h2>
+							<div class="photostack-back">
+								<p>We visited your lola's grave. Sayang hindi ko siya nameet dati. <img src="img/emojis/loud crying.png" width="30px"/></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="img/5.jpg" alt="img05"/>
+						<figcaption>
+							<h2 class="photostack-title">Candid effect pa haha.</h2>
+							<div class="photostack-back">
+								<p>At dahil onti pa lang adventures natin, sasabihin ko nalang sayo kung bakit mahal na mahal kita. <img src="img/emojis/couple heart.png" width="30px"/></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="img/6.jpg" alt="img06"/>
+						<figcaption>
+							<h2 class="photostack-title">Tapang ha? HAHAHAH!</h2>
+							<div class="photostack-back">
+								<p>Dahil tibo ka at mas lalake ka pa sakin minsan. Jojombagin mo ko pag nagloko ako hahaha! <img src="img/emojis/crazy.png" width="30px"/></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="img/7.jpg" alt="img07"/>
+						<figcaption>
+							<h2 class="photostack-title">Inuna pa picture ng foods haha</h2>
+							<div class="photostack-back">
+								<p>Ang babaw lng ng kaligayahan mo. Pakainin ka lang ang saya saya mo na. <img src="img/emojis/lol.png" width="30px"/></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="img/8.jpg" alt="img08"/>
+						<figcaption>
+							<h2 class="photostack-title">Tunaw na ko ughhh.</h2>
+							<div class="photostack-back">
+								<p>I can see your soul in your eyes. <img src="img/emojis/eyes.png" width="30px"/></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="img/9.jpg" alt="img09"/>
+						<figcaption>
+							<h2 class="photostack-title">Medyo Badgurl. HAHAH!</h2>
+							<div class="photostack-back">
+								<p>IDGAF ka! Just like me. Kaso pasaway minsan, bawasan na ha! <img src="img/emojis/rolling eyes.png" width="30px"/></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="img/10.jpg" alt="img10"/>
+						<figcaption>
+							<h2 class="photostack-title">Doble doble na baba mo katakawan mo. BWHAHAHA!</h2>
+							<div class="photostack-back">
+								<p>You're not afraid to look silly or stupid mapangiti mo lang ako. <img src="img/emojis/blush.png" width="30px"/></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="img/11.jpg" alt="img11"/>
+						<figcaption>
+							<h2 class="photostack-title">Ugh ang sweeeettt shetttteee.</h2>
+							<div class="photostack-back">
+								<p>I lose myself when you look at me intimately. <img src="img/emojis/eyes heart.png" width="30px"/></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="img/12.jpg" alt="img12"/>
+						<figcaption>
+							<h2 class="photostack-title">Kasing laki ng puso ko ung puso dyan dahil sayo.</h2>
+							<div class="photostack-back">
+								<p>When you kiss me, I feel like in heaven. <img src="img/emojis/kiss blushing.png" width="30px"/></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="img/13.jpg" alt="img13"/>
+						<figcaption>
+							<h2 class="photostack-title">You shine brightest when you smile</h2>
+							<div class="photostack-back">
+								<p>At syempre, ikaw ang pinakamagandang babae sa balat at tinalupan ng lupa! <img src="img/emojis/haba ng hair.png" width="30px"/></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="img/14.jpg" alt="img14"/>
+						<figcaption>
+							<h2 class="photostack-title">Ang cutie nyo ni kisses!</h2>
+							<div class="photostack-back">
+								<p>Mahal na mahal ka namin ni kisses (siningit ko lang siya). <img src="img/emojis/dog.png" width="30px"/></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="img/15.jpg" alt="img15"/>
+						<figcaption>
+							<div class="photostack-back">
+								<p>I LOVE YOU BABY SO MUCH!!! <img src="img/emojis/heartsmany1.png" width="30px"/><img src="img/emojis/heartsmany2.png" width="30px"/><img src="img/emojis/heartsmany3.png" width="30px"/><img src="img/emojis/heartsmany4.png" width="30px"/></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="img/16.jpg" alt="img16"/>
+						<figcaption>
+							<div class="photostack-back">
+								<p>HAPPY VALENTINES DAY!!! <img src="img/emojis/flower1.png" width="30px"/><img src="img/emojis/flower2.png" width="30px"/><img src="img/emojis/flower3.png" width="30px"/><img src="img/emojis/flower4.png" width="30px"/></p>
+							</div>
+						</figcaption>
+					</figure>
+				</div>
+			</section>
+			<div><br><br><br></div>
+			<section class="description" style="display: none;">
+				<iframe width="15%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/448499622&amp;color=%23ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+			</section>
+		</div><!-- /container -->
+		<script src="js/main.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/photostack.js"></script>		
+		<script>
+			// [].slice.call( document.querySelectorAll( '.photostack' ) ).forEach( function( el ) { new Photostack( el ); } );
+			
+			new Photostack( document.getElementById( 'photostack-1' ), {
+				callback : function( item ) {
+					//console.log(item)
+				}
+			} );
+		</script>
+	</body>
+</html>

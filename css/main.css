@@ -1,0 +1,16 @@
+/* GLOBAL STYLES */
+/* DEMO-SPECIFIC STYLES */
+#typedtext{
+  color: #000;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 2em;
+  margin: 50px 200px; 
+  letter-spacing: 6px; 
+}
+
+.typewriter{
+	background-color: #f0d892;
+	min-height: 1155px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
